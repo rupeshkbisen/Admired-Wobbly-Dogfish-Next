@@ -8,7 +8,7 @@ const Navbar8 = (props) => {
   const [link5AccordionOpen, setLink5AccordionOpen] = useState(false)
   return (
     <>
-      <header className="navbar8-container1">
+      <header className={`navbar8-container1 ${props.rootClassName} `}>
         <header data-thq="thq-navbar" className="navbar8-navbar-interactive">
           <img
             alt={props.logoAlt}
@@ -960,6 +960,21 @@ const Navbar8 = (props) => {
           .navbar8-text27 {
             display: inline-block;
           }
+
+          @media (max-width: 1200px) {
+            .navbar8root-class-name {
+              fill: var(--dl-color-theme-neutral-dark);
+              color: var(--dl-color-theme-neutral-dark);
+            }
+            .navbar8root-class-name1 {
+              fill: var(--dl-color-theme-neutral-dark);
+              color: var(--dl-color-theme-neutral-dark);
+            }
+            .navbar8root-class-name2 {
+              fill: var(--dl-color-theme-neutral-dark);
+              color: var(--dl-color-theme-neutral-dark);
+            }
+          }
           @media (max-width: 767px) {
             .navbar8-navbar-interactive {
               padding-left: var(--dl-layout-space-twounits);
@@ -1035,6 +1050,7 @@ Navbar8.defaultProps = {
   link1Url: 'https://www.teleporthq.io',
   page4ImageSrc:
     'https://images.unsplash.com/photo-1639149861577-2da2a42d1f05?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w5MTMyMXwwfDF8cmFuZG9tfHx8fHx8fHx8MTc1MjgxNDc3OXw&ixlib=rb-4.1.0&q=80&w=1080',
+  rootClassName: '',
 }
 
 Navbar8.propTypes = {
@@ -1069,6 +1085,7 @@ Navbar8.propTypes = {
   page4Description: PropTypes.element,
   link1Url: PropTypes.string,
   page4ImageSrc: PropTypes.string,
+  rootClassName: PropTypes.string,
 }
 
 export default Navbar8

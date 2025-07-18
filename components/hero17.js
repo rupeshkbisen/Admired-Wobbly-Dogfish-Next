@@ -186,28 +186,16 @@ const Hero17 = (props) => {
         </div>
         <div>
           <div className="hero17-container2">
-            <Script
-              html={`<style>
-  @keyframes scroll-x {
-    from {
-      transform: translateX(0);
-    }
-    to {
-      transform: translateX(calc(-100% - 16px));
-    }
-  }
-
-  @keyframes scroll-y {
-    from {
-      transform: translateY(0);
-    }
-    to {
-      transform: translateY(calc(-100% - 16px));
-    }
-  }
-</style>
-`}
-            ></Script>
+            <React.Fragment>
+              <React.Fragment>
+                <style
+                  dangerouslySetInnerHTML={{
+                    __html:
+                      '\n  @keyframes scroll-x {\n    from {\n      transform: translateX(0);\n    }\n    to {\n      transform: translateX(calc(-100% - 16px));\n    }\n  }\n\n  @keyframes scroll-y {\n    from {\n      transform: translateY(0);\n    }\n    to {\n      transform: translateY(calc(-100% - 16px));\n    }\n  }\n',
+                  }}
+                />
+              </React.Fragment>
+            </React.Fragment>
           </div>
         </div>
       </div>

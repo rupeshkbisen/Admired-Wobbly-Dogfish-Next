@@ -92,6 +92,7 @@ const Home = (props) => {
               <span className="home-text113">Page Four Description</span>
             </Fragment>
           }
+          rootClassName="navbar8root-class-name"
         ></Navbar8>
         <Hero17
           action1={

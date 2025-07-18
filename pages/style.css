@@ -5,12 +5,12 @@
   --dl-layout-size-medium: 96px;
   --dl-layout-size-xlarge: 192px;
   --dl-layout-size-xsmall: 16px;
-  --dl-color-theme-accent1: #FFFFFF;
-  --dl-color-theme-accent2: #F5D1B0;
+  --dl-color-theme-accent1: #AFD8F5;
+  --dl-color-theme-accent2: #9DC4F5;
   --dl-layout-radius-round: 50%;
   --dl-layout-size-xxlarge: 288px;
-  --dl-color-theme-primary1: #BF4408;
-  --dl-color-theme-primary2: #E65103;
+  --dl-color-theme-primary1: #0060B9;
+  --dl-color-theme-primary2: #193EBD;
   --dl-layout-size-maxwidth: 1400px;
   --dl-layout-radius-radius2: 2px;
   --dl-layout-radius-radius4: 4px;
@@ -18,14 +18,14 @@
   --dl-layout-space-halfunit: 8px;
   --dl-layout-space-sixunits: 96px;
   --dl-layout-space-twounits: 32px;
-  --dl-color-theme-secondary1: #FFFFFF;
-  --dl-color-theme-secondary2: #FBF1EB;
+  --dl-color-theme-secondary1: #E5F0FF;
+  --dl-color-theme-secondary2: #D9E3F2;
   --dl-layout-space-fiveunits: 80px;
   --dl-layout-space-fourunits: 64px;
   --dl-layout-space-threeunits: 48px;
-  --dl-color-theme-neutral-dark: #191818;
+  --dl-color-theme-neutral-dark: #141A22;
   --dl-layout-radius-cardradius: 8px;
-  --dl-color-theme-neutral-light: #FBFAF9;
+  --dl-color-theme-neutral-light: #FFFFFF;
   --dl-layout-radius-imageradius: 8px;
   --dl-layout-radius-inputradius: 24px;
   --dl-layout-radius-buttonradius: 24px;
@@ -181,34 +181,34 @@
  
 .thq-heading-1 {
   font-size: 48px;
-  font-family: STIX Two Text;
+  font-family: Lato;
   font-weight: 700;
   line-height: 1.5;
 }
  
 .thq-heading-2 {
   font-size: 35px;
-  font-family: STIX Two Text;
+  font-family: Lato;
   font-weight: 600;
   line-height: 1.5;
 }
  
 .thq-heading-3 {
   font-size: 26px;
-  font-family: STIX Two Text;
+  font-family: Lato;
   font-weight: 600;
   line-height: 1.5;
 }
  
 .thq-body-large {
   font-size: 18px;
-  font-family: Noto Sans;
+  font-family: Roboto;
   line-height: 1.5;
 }
  
 .thq-body-small {
   font-size: 16px;
-  font-family: Noto Sans;
+  font-family: Roboto;
   line-height: 1.5;
 }
  
@@ -537,6 +537,10 @@
   z-index: -1;
   transform: scaleX(1);
 }
+ 
+
+ 
+
  
 .Content {
   font-size: 16px;
