@@ -6,7 +6,6 @@ import { useTranslations } from 'next-intl'
 import Navbar8 from '../components/navbar8'
 import Hero17 from '../components/hero17'
 import Features24 from '../components/features24'
-import CTA26 from '../components/cta26'
 import Features25 from '../components/features25'
 import Pricing14 from '../components/pricing14'
 import Steps2 from '../components/steps2'
@@ -160,44 +159,25 @@ const Home = (props) => {
             </Fragment>
           }
         ></Features24>
-        <CTA26
-          action1={
-            <Fragment>
-              <span className="home-text124">Play Now</span>
-            </Fragment>
-          }
-          content1={
-            <Fragment>
-              <span className="home-text125">
-                Browse our game catalog and start playing now!
-              </span>
-            </Fragment>
-          }
-          heading1={
-            <Fragment>
-              <span className="home-text126">Ready to play?</span>
-            </Fragment>
-          }
-        ></CTA26>
         <Features25
           feature1Title={
             <Fragment>
-              <span className="home-text127">Browse Game Catalog</span>
+              <span className="home-text124">Browse Game Catalog</span>
             </Fragment>
           }
           feature2Title={
             <Fragment>
-              <span className="home-text128">Play Directly In-Browser</span>
+              <span className="home-text125">Play Directly In-Browser</span>
             </Fragment>
           }
           feature3Title={
             <Fragment>
-              <span className="home-text129">Responsive Design</span>
+              <span className="home-text126">Responsive Design</span>
             </Fragment>
           }
           feature1Description={
             <Fragment>
-              <span className="home-text130">
+              <span className="home-text127">
                 Easily explore a variety of casual games available in the
                 catalog.
               </span>
@@ -205,7 +185,7 @@ const Home = (props) => {
           }
           feature2Description={
             <Fragment>
-              <span className="home-text131">
+              <span className="home-text128">
                 Enjoy playing games directly in your browser without the need
                 for downloads.
               </span>
@@ -213,7 +193,7 @@ const Home = (props) => {
           }
           feature3Description={
             <Fragment>
-              <span className="home-text132">
+              <span className="home-text129">
                 Experience seamless gameplay across different devices with
                 responsive design.
               </span>
@@ -223,44 +203,44 @@ const Home = (props) => {
         <Pricing14
           plan1={
             <Fragment>
-              <span className="home-text133">Basic plan</span>
+              <span className="home-text130">Basic plan</span>
             </Fragment>
           }
           plan2={
             <Fragment>
-              <span className="home-text134">Business plan</span>
+              <span className="home-text131">Business plan</span>
             </Fragment>
           }
           plan3={
             <Fragment>
-              <span className="home-text135">Enterprise plan</span>
+              <span className="home-text132">Enterprise plan</span>
             </Fragment>
           }
           plan11={
             <Fragment>
-              <span className="home-text136">Basic plan</span>
+              <span className="home-text133">Basic plan</span>
             </Fragment>
           }
           plan21={
             <Fragment>
-              <span className="home-text137">Business plan</span>
+              <span className="home-text134">Business plan</span>
             </Fragment>
           }
           plan31={
             <Fragment>
-              <span className="home-text138">Enterprise plan</span>
+              <span className="home-text135">Enterprise plan</span>
             </Fragment>
           }
           content1={
             <Fragment>
-              <span className="home-text139">
+              <span className="home-text136">
                 Choose the perfect plan for you
               </span>
             </Fragment>
           }
           content2={
             <Fragment>
-              <span className="home-text140">
+              <span className="home-text137">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 <span
                   dangerouslySetInnerHTML={{
@@ -272,259 +252,259 @@ const Home = (props) => {
           }
           heading1={
             <Fragment>
-              <span className="home-text141">Pricing plan</span>
+              <span className="home-text138">Pricing plan</span>
             </Fragment>
           }
           plan1Price={
             <Fragment>
-              <span className="home-text142">$0</span>
+              <span className="home-text139">$0</span>
             </Fragment>
           }
           plan2Price={
             <Fragment>
-              <span className="home-text143">$5/month</span>
+              <span className="home-text140">$5/month</span>
             </Fragment>
           }
           plan3Price={
             <Fragment>
-              <span className="home-text144">$10/month</span>
+              <span className="home-text141">$10/month</span>
             </Fragment>
           }
           plan1Action={
             <Fragment>
-              <span className="home-text145">Play Now</span>
+              <span className="home-text142">Play Now</span>
             </Fragment>
           }
           plan1Price1={
             <Fragment>
-              <span className="home-text146">$200/yr</span>
+              <span className="home-text143">$200/yr</span>
             </Fragment>
           }
           plan1Yearly={
             <Fragment>
-              <span className="home-text147">or $200 yearly</span>
+              <span className="home-text144">or $200 yearly</span>
             </Fragment>
           }
           plan2Action={
             <Fragment>
-              <span className="home-text148">Subscribe Now</span>
+              <span className="home-text145">Subscribe Now</span>
             </Fragment>
           }
           plan2Price1={
             <Fragment>
-              <span className="home-text149">$299/yr</span>
+              <span className="home-text146">$299/yr</span>
             </Fragment>
           }
           plan2Yearly={
             <Fragment>
-              <span className="home-text150">or $299 yearly</span>
+              <span className="home-text147">or $299 yearly</span>
             </Fragment>
           }
           plan3Action={
             <Fragment>
-              <span className="home-text151">Get Premium</span>
+              <span className="home-text148">Get Premium</span>
             </Fragment>
           }
           plan3Price1={
             <Fragment>
-              <span className="home-text152">$499/yr</span>
+              <span className="home-text149">$499/yr</span>
             </Fragment>
           }
           plan3Yearly={
             <Fragment>
-              <span className="home-text153">or $499 yearly</span>
+              <span className="home-text150">or $499 yearly</span>
             </Fragment>
           }
           plan1Action1={
             <Fragment>
-              <span className="home-text154">Get started</span>
+              <span className="home-text151">Get started</span>
             </Fragment>
           }
           plan1Yearly1={
             <Fragment>
-              <span className="home-text155">or $20 monthly</span>
+              <span className="home-text152">or $20 monthly</span>
             </Fragment>
           }
           plan2Action1={
             <Fragment>
-              <span className="home-text156">Get started</span>
+              <span className="home-text153">Get started</span>
             </Fragment>
           }
           plan2Yearly1={
             <Fragment>
-              <span className="home-text157">or $29 monthly</span>
+              <span className="home-text154">or $29 monthly</span>
             </Fragment>
           }
           plan3Action1={
             <Fragment>
-              <span className="home-text158">Get started</span>
+              <span className="home-text155">Get started</span>
             </Fragment>
           }
           plan3Yearly1={
             <Fragment>
-              <span className="home-text159">or $49 monthly</span>
+              <span className="home-text156">or $49 monthly</span>
             </Fragment>
           }
           plan1Feature1={
             <Fragment>
-              <span className="home-text160">Access to Tic Tac Toe game</span>
+              <span className="home-text157">Access to Tic Tac Toe game</span>
             </Fragment>
           }
           plan1Feature2={
             <Fragment>
-              <span className="home-text161">
+              <span className="home-text158">
                 Responsive design for mobile/desktop
               </span>
             </Fragment>
           }
           plan1Feature3={
             <Fragment>
-              <span className="home-text162">Quick and fun gameplay</span>
+              <span className="home-text159">Quick and fun gameplay</span>
             </Fragment>
           }
           plan2Feature1={
             <Fragment>
-              <span className="home-text163">Access to Slider Puzzle game</span>
+              <span className="home-text160">Access to Slider Puzzle game</span>
             </Fragment>
           }
           plan2Feature2={
             <Fragment>
-              <span className="home-text164">Dark mode option available</span>
+              <span className="home-text161">Dark mode option available</span>
             </Fragment>
           }
           plan2Feature3={
             <Fragment>
-              <span className="home-text165">
+              <span className="home-text162">
                 Modular structure for adding games
               </span>
             </Fragment>
           }
           plan2Feature4={
             <Fragment>
-              <span className="home-text166">Feature text goes here</span>
+              <span className="home-text163">Feature text goes here</span>
             </Fragment>
           }
           plan3Feature1={
             <Fragment>
-              <span className="home-text167">
+              <span className="home-text164">
                 Access to all games in the catalog
               </span>
             </Fragment>
           }
           plan3Feature2={
             <Fragment>
-              <span className="home-text168">
+              <span className="home-text165">
                 Yearly subscription option available
               </span>
             </Fragment>
           }
           plan3Feature3={
             <Fragment>
-              <span className="home-text169">Scalable gameplay experience</span>
+              <span className="home-text166">Scalable gameplay experience</span>
             </Fragment>
           }
           plan3Feature4={
             <Fragment>
-              <span className="home-text170">Feature text goes here</span>
+              <span className="home-text167">Feature text goes here</span>
             </Fragment>
           }
           plan3Feature5={
             <Fragment>
-              <span className="home-text171">Feature text goes here</span>
+              <span className="home-text168">Feature text goes here</span>
             </Fragment>
           }
           plan1Feature11={
             <Fragment>
-              <span className="home-text172">Feature text goes here</span>
+              <span className="home-text169">Feature text goes here</span>
             </Fragment>
           }
           plan1Feature21={
             <Fragment>
-              <span className="home-text173">Feature text goes here</span>
+              <span className="home-text170">Feature text goes here</span>
             </Fragment>
           }
           plan1Feature31={
             <Fragment>
-              <span className="home-text174">Feature text goes here</span>
+              <span className="home-text171">Feature text goes here</span>
             </Fragment>
           }
           plan2Feature11={
             <Fragment>
-              <span className="home-text175">Feature text goes here</span>
+              <span className="home-text172">Feature text goes here</span>
             </Fragment>
           }
           plan2Feature21={
             <Fragment>
-              <span className="home-text176">Feature text goes here</span>
+              <span className="home-text173">Feature text goes here</span>
             </Fragment>
           }
           plan2Feature31={
             <Fragment>
-              <span className="home-text177">Feature text goes here</span>
+              <span className="home-text174">Feature text goes here</span>
             </Fragment>
           }
           plan2Feature41={
             <Fragment>
-              <span className="home-text178">Feature text goes here</span>
+              <span className="home-text175">Feature text goes here</span>
             </Fragment>
           }
           plan3Feature11={
             <Fragment>
-              <span className="home-text179">Feature text goes here</span>
+              <span className="home-text176">Feature text goes here</span>
             </Fragment>
           }
           plan3Feature21={
             <Fragment>
-              <span className="home-text180">Feature text goes here</span>
+              <span className="home-text177">Feature text goes here</span>
             </Fragment>
           }
           plan3Feature31={
             <Fragment>
-              <span className="home-text181">Feature text goes here</span>
+              <span className="home-text178">Feature text goes here</span>
             </Fragment>
           }
           plan3Feature41={
             <Fragment>
-              <span className="home-text182">Feature text goes here</span>
+              <span className="home-text179">Feature text goes here</span>
             </Fragment>
           }
           plan3Feature51={
             <Fragment>
-              <span className="home-text183">Feature text goes here</span>
+              <span className="home-text180">Feature text goes here</span>
             </Fragment>
           }
         ></Pricing14>
         <Steps2
           step1Title={
             <Fragment>
-              <span className="home-text184">Browse Game Catalog</span>
+              <span className="home-text181">Browse Game Catalog</span>
             </Fragment>
           }
           step2Title={
             <Fragment>
-              <span className="home-text185">View Game Details</span>
+              <span className="home-text182">View Game Details</span>
             </Fragment>
           }
           step3Title={
             <Fragment>
-              <span className="home-text186">Play In-Browser</span>
+              <span className="home-text183">Play In-Browser</span>
             </Fragment>
           }
           step4Title={
             <Fragment>
-              <span className="home-text187">Have Fun!</span>
+              <span className="home-text184">Have Fun!</span>
             </Fragment>
           }
           step1Description={
             <Fragment>
-              <span className="home-text188">
+              <span className="home-text185">
                 Explore a variety of casual games available in the catalog.
               </span>
             </Fragment>
           }
           step2Description={
             <Fragment>
-              <span className="home-text189">
+              <span className="home-text186">
                 Check out game descriptions, instructions, and screenshots to
                 learn more.
               </span>
@@ -532,7 +512,7 @@ const Home = (props) => {
           }
           step3Description={
             <Fragment>
-              <span className="home-text190">
+              <span className="home-text187">
                 Enjoy playing games directly in your browser without any
                 downloads.
               </span>
@@ -540,7 +520,7 @@ const Home = (props) => {
           }
           step4Description={
             <Fragment>
-              <span className="home-text191">
+              <span className="home-text188">
                 Immerse yourself in quick, fun, and scalable gameplay for a
                 great gaming experience.
               </span>
@@ -550,7 +530,7 @@ const Home = (props) => {
         <Testimonial17
           review1={
             <Fragment>
-              <span className="home-text192">
+              <span className="home-text189">
                 I love playing Tic Tac Toe on Web Games Hub! It&apos;s a great
                 way to pass the time and challenge my friends.
               </span>
@@ -558,7 +538,7 @@ const Home = (props) => {
           }
           review2={
             <Fragment>
-              <span className="home-text193">
+              <span className="home-text190">
                 Slider Puzzle is my favorite game on this platform. The
                 interface is user-friendly, and the puzzles are engaging.
               </span>
@@ -566,7 +546,7 @@ const Home = (props) => {
           }
           review3={
             <Fragment>
-              <span className="home-text194">
+              <span className="home-text191">
                 I enjoy the convenience of being able to play these games on my
                 phone. It&apos;s a perfect way to relax during breaks.
               </span>
@@ -574,7 +554,7 @@ const Home = (props) => {
           }
           review4={
             <Fragment>
-              <span className="home-text195">
+              <span className="home-text192">
                 As a developer, I appreciate the modular structure of Web Games
                 Hub. It&apos;s easy to add new games and customize the platform.
               </span>
@@ -582,61 +562,61 @@ const Home = (props) => {
           }
           content1={
             <Fragment>
-              <span className="home-text196">
+              <span className="home-text193">
                 See what our users have to say about Web Games Hub.
               </span>
             </Fragment>
           }
           heading1={
             <Fragment>
-              <span className="home-text197">Testimonials</span>
+              <span className="home-text194">Testimonials</span>
             </Fragment>
           }
           author1Name={
             <Fragment>
-              <span className="home-text198">Alice Smith</span>
+              <span className="home-text195">Alice Smith</span>
             </Fragment>
           }
           author2Name={
             <Fragment>
-              <span className="home-text199">Bob Johnson</span>
+              <span className="home-text196">Bob Johnson</span>
             </Fragment>
           }
           author3Name={
             <Fragment>
-              <span className="home-text200">Eva Brown</span>
+              <span className="home-text197">Eva Brown</span>
             </Fragment>
           }
           author4Name={
             <Fragment>
-              <span className="home-text201">Max Wilson</span>
+              <span className="home-text198">Max Wilson</span>
             </Fragment>
           }
           author1Position={
             <Fragment>
-              <span className="home-text202">Game Enthusiast</span>
+              <span className="home-text199">Game Enthusiast</span>
             </Fragment>
           }
           author2Position={
             <Fragment>
-              <span className="home-text203">Casual Gamer</span>
+              <span className="home-text200">Casual Gamer</span>
             </Fragment>
           }
           author3Position={
             <Fragment>
-              <span className="home-text204">Mobile Gamer</span>
+              <span className="home-text201">Mobile Gamer</span>
             </Fragment>
           }
           author4Position={
             <Fragment>
-              <span className="home-text205">Web Developer</span>
+              <span className="home-text202">Web Developer</span>
             </Fragment>
           }
         ></Testimonial17>
         <Contact10
           content1={
             <Fragment>
-              <span className="home-text206">
+              <span className="home-text203">
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit.
                 Suspendisse varius enim in ero.
               </span>
@@ -644,29 +624,29 @@ const Home = (props) => {
           }
           heading1={
             <Fragment>
-              <span className="home-text207">Contact Us</span>
+              <span className="home-text204">Contact Us</span>
             </Fragment>
           }
           location1={
             <Fragment>
-              <span className="home-text208">Web Games Hub Headquarters</span>
+              <span className="home-text205">Web Games Hub Headquarters</span>
             </Fragment>
           }
           location2={
             <Fragment>
-              <span className="home-text209">Support Team</span>
+              <span className="home-text206">Support Team</span>
             </Fragment>
           }
           location1Description={
             <Fragment>
-              <span className="home-text210">
+              <span className="home-text207">
                 123 Main Street, City, Country
               </span>
             </Fragment>
           }
           location2Description={
             <Fragment>
-              <span className="home-text211">
+              <span className="home-text208">
                 For any inquiries or assistance, please email
                 support@webgameshub.com
               </span>
@@ -676,42 +656,42 @@ const Home = (props) => {
         <Footer4
           link1={
             <Fragment>
-              <span className="home-text212">Home</span>
+              <span className="home-text209">Home</span>
             </Fragment>
           }
           link2={
             <Fragment>
-              <span className="home-text213">Games</span>
+              <span className="home-text210">Games</span>
             </Fragment>
           }
           link3={
             <Fragment>
-              <span className="home-text214">About Us</span>
+              <span className="home-text211">About Us</span>
             </Fragment>
           }
           link4={
             <Fragment>
-              <span className="home-text215">Contact Us</span>
+              <span className="home-text212">Contact Us</span>
             </Fragment>
           }
           link5={
             <Fragment>
-              <span className="home-text216">Link 5</span>
+              <span className="home-text213">Link 5</span>
             </Fragment>
           }
           termsLink={
             <Fragment>
-              <span className="home-text217">Terms of Service</span>
+              <span className="home-text214">Terms of Service</span>
             </Fragment>
           }
           cookiesLink={
             <Fragment>
-              <span className="home-text218">Cookies Policy</span>
+              <span className="home-text215">Cookies Policy</span>
             </Fragment>
           }
           privacyLink={
             <Fragment>
-              <span className="home-text219">Privacy Policy</span>
+              <span className="home-text216">Privacy Policy</span>
             </Fragment>
           }
         ></Footer4>
@@ -1074,15 +1054,6 @@ const Home = (props) => {
             display: inline-block;
           }
           .home-text216 {
-            display: inline-block;
-          }
-          .home-text217 {
-            display: inline-block;
-          }
-          .home-text218 {
-            display: inline-block;
-          }
-          .home-text219 {
             display: inline-block;
           }
         `}
